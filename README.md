@@ -1,9 +1,8 @@
-# Gravity UI Themer Figma plugin [![beta version](https://img.shields.io/badge/beta-8A2BE2)]
-
+## Gravity UI Themer Figma plugin ![beta version](https://img.shields.io/badge/beta-8A2BE2)
 A Figma plugin to generate Local Variables and Local Styles from Themer.
 
 
-## Quickstart
+### Quickstart
 Run `yarn` to install dependencies.
 Run `yarn build:watch` to start webpack in watch mode.
 Open `Figma` -> `Plugins` -> `Development` -> `Import plugin from manifest...` and choose `manifest.json` file from this repo.
@@ -12,7 +11,7 @@ Open `Figma` -> `Plugins` -> `Development` -> `Import plugin from manifest...` a
 - To interact with the Figma API edit `controller.ts`.
 - Read more on the [Figma API Overview](https://www.figma.com/developers/api).
 
-## Toolings
+### Toolings
 This repo is using:
 
 - React + Webpack

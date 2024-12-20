@@ -1,0 +1,34 @@
+.gravity-ui-themer-figma__title {
+    flex-direction: column;
+    gap: var(--g-spacing-base);
+    margin-bottom: var(--g-spacing-5);
+}
+
+.gravity-ui-themer-figma__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-spacing-base);
+}
+
+.gravity-ui-themer-figma__overlay_content, .g-overlay__children {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-spacing-base);
+    align-items: center;
+}
+
+.gravity-ui-themer-figma__overlay_content button, .g-overlay__children button {
+    margin-top: var(--g-spacing-2);
+}
+
+.gravity-ui-themer-figma__overlay_content_buttons {
+    display: flex;
+    gap: var(--g-spacing-base);
+}
+
+.g-flex {
+    display: flex;
+}
+.g-box {
+    box-sizing: border-box;
+}
